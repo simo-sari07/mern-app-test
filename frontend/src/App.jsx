@@ -11,7 +11,7 @@ function App() {
   const [showCreateForm, setShowCreateForm] = useState(false)
   const [loading, setLoading] = useState(true)
 
-  const API_URL = "http://localhost:5000/api"
+  const API_URL = "https://mern-app-test-woy0.onrender.com/api"
 
   useEffect(() => {
     fetchProducts()
